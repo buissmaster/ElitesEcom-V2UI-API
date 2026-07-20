@@ -1,0 +1,12 @@
+opencollection: 1.0.0
+info:
+  name: "ElitesEcom V2 UI API"
+  type: workspace
+
+collections:
+  - name: "ElitesUI  Admin Api"
+    path: "collections/ElitesUI  Admin Api"
+
+specs:
+
+docs: ''
