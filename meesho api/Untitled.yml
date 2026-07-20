@@ -1,0 +1,41 @@
+info:
+  name: Untitled
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: https://api.meesholink.com/v1/token/refresh
+  headers:
+    - name: User-Agent
+      value: Yaak/1.0
+    - name: Accept
+      value: "*/*"
+    - name: Accept-Encoding
+      value: gzip, deflate, br, zstd
+    - name: Cache-Control
+      value: no-cache
+    - name: Content-Type
+      value: application/json
+    - name: meesholink-client-id
+      value: ELITESECOM OMS & RECO
+    - name: meesholink-client-secret
+      value: 8830691e-676c-4a45-915b-fafc5a65a391
+    - name: meesholink-refresh-token
+      value: MQ==.YWhSZTI5NHBJTUpwSUJhWGZ3em9aNmdEQ29mcjh4ZzBXZjRpR1h1VjAyRjhVZ2tyZlZKcHRvNS9ma3BhQWxXeA==
+    - name: X-PROXY-MEESHOLINK-SUPPLIER-ID
+      value: test
+  body:
+    type: json
+    data: "{\r
+
+      \  \"refresh_token\": \"MQ==.YWhSZTI5NHBJTUpwSUJhWGZ3em9aNmdEQ29mcjh4ZzBXZjRpR1h1VjAyRjhVZ2tyZlZKcHRvNS9ma3BhQWxXeA==\"\r
+
+      }"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
